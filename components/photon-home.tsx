@@ -44,7 +44,7 @@ export function PhotonHome() {
       <header className={`fixed inset-x-0 top-0 z-50 border-b transition-all duration-500 ${scrolled ? 'border-white/10 bg-[#050b1a]/80 backdrop-blur-xl' : 'border-transparent bg-transparent'}`}>
         <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:px-10">
           <a href="#home" className="group flex items-center gap-3" aria-label="PhotonCore Technologies home">
-            <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photoncore-technologies-logo-white-WBf9iwhifi3LwanpdEh61V85bICSrL.png" alt="PhotonCore Technologies" className="size-9 object-contain" />
+            <img src="photoncore-technologies-logo-white.png" alt="PhotonCore Technologies" className="size-9 object-contain" />
             <span className="text-sm font-semibold tracking-[0.18em]">PHOTONCORE</span>
           </a>
           <nav className="hidden items-center gap-8 md:flex" aria-label="Primary navigation">
