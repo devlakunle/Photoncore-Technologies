@@ -31,6 +31,7 @@ export const metadata: Metadata = {
       },
     ],
     apple: '/photoncore-technologies-logo-white.png',
+    shortcut: "/photoncore-technologies-logo-white.png"
   },
 }
 
