@@ -44,7 +44,7 @@ export function PhotonHome() {
       <header className={`fixed inset-x-0 top-0 z-50 border-b transition-all duration-500 ${scrolled ? 'border-white/10 bg-[#050b1a]/80 backdrop-blur-xl' : 'border-transparent bg-transparent'}`}>
         <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:px-10">
           <a href="#home" className="group flex items-center gap-3" aria-label="PhotonCore Technologies home">
-            <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photoncore-technologies-logo-white-WBf9iwhifi3LwanpdEh61V85bICSrL.png" alt="PhotonCore Technologies" className="size-9 object-contain" />
+            <img src="photoncore-technologies-logo-white.png" alt="PhotonCore Technologies" className="size-9 object-contain" />
             <span className="text-sm font-semibold tracking-[0.18em]">PHOTONCORE</span>
           </a>
           <nav className="hidden items-center gap-8 md:flex" aria-label="Primary navigation">
@@ -56,9 +56,9 @@ export function PhotonHome() {
         {menuOpen && <nav className="flex flex-col gap-5 border-t border-white/10 bg-[#050b1a]/95 px-6 py-6 md:hidden">{navItems.map((item) => <a key={item} href={`#${item.toLowerCase()}`} onClick={() => setMenuOpen(false)} className="text-sm tracking-[0.16em] text-white/70">{item}</a>)}</nav>}
       </header>
 
-      <section id="home" className="relative flex min-h-[760px] items-center overflow-hidden pt-20 lg:min-h-screen">
+      <section id="home" className="relative flex min-h-190 items-center overflow-hidden pt-20 lg:min-h-screen">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_50%,rgba(11,77,255,0.2),transparent_34%),linear-gradient(115deg,#050b1a_30%,#071a3a_100%)]" />
-        <div className="absolute inset-0 opacity-20 [background-image:linear-gradient(rgba(71,145,255,.18)_1px,transparent_1px),linear-gradient(90deg,rgba(71,145,255,.18)_1px,transparent_1px)] [background-size:80px_80px] [mask-image:linear-gradient(to_right,black,transparent)]" />
+        <div className="absolute inset-0 opacity-20 bg-[linear-gradient(rgba(71,145,255,.18)_1px,transparent_1px),linear-gradient(90deg,rgba(71,145,255,.18)_1px,transparent_1px)] [background-size:80px_80px] [mask-image:linear-gradient(to_right,black,transparent)]" />
         <PhotonCoreScene />
         <div className="relative z-10 mx-auto grid w-full max-w-7xl px-6 lg:grid-cols-[1.05fr_.95fr] lg:px-10">
           <div className="max-w-3xl">
